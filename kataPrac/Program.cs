@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using kataPrac;
 
 namespace KataPrac;
 
@@ -33,7 +34,11 @@ public class Program
         //Console.WriteLine(NbYear(1500, 5, 100, 5000));
         //Console.WriteLine(binaryArrayToNumber(new int[] { 1, 0, 1, 0 }));
         //Console.WriteLine(GetNumber(st));
-        Console.WriteLine(largestPair(49999));
+        //Console.WriteLine(largestPair(49999));
+        Console.WriteLine(katas.seriesSum(5));
+        Console.WriteLine(katas.seriesSum(0));
+        Console.WriteLine(katas.PrinterError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
+
 
 
     }
@@ -56,14 +61,6 @@ public class Program
     }
     public static int GetSum(int a, int b)
     {
-        // int max = Math.Max(a, b);
-        //     int min = Math.Min(a, b);
-        //     int result = 0;
-        //     for (int i = min; i <= max; i++)
-        //     {
-        //         result += i;
-        //     }
-        //     return result;
         int j = 0;
         if (a == b) return a;
         if (a > b)
@@ -177,7 +174,6 @@ public class Program
 
     }
 
-
     public static int largestPair(int v)
     {
         //int v = 453857;
@@ -191,4 +187,6 @@ public class Program
         }
         return m;
     }
+
+
 }
