@@ -13,7 +13,7 @@ public class UnitTest1
     [Fact]
     public void ToJadenCaseTest()
     {
-        var responce = katas.ToJadenCase("How can mirrors be real if our eyes aren't real");
+        var responce = katas.ToJadenCase("How   can mirrors be real if our eyes aren't real");
         responce.Should().Be("How Can Mirrors Be Real If Our Eyes Aren't Real");
     }
 

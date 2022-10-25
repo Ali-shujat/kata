@@ -1,13 +1,16 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace kataPrac
 {
     public static class katas
     {
-        // To upper case every word first letter in a string
+        // To upper case every word first letter in a string and remove spaces
         public static string ToJadenCase(this string phrase)
         {
+            phrase = Regex.Replace(phrase, @"\s+", " ");
             return new CultureInfo("en-US").TextInfo.ToTitleCase(phrase);
         }
         public static string seriesSum(int n)
