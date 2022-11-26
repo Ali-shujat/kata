@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\kataPrac"
   ],
-  "SelectedNode": "\\kataPrac.sln",
+  "SelectedNode": "\\kataPrac\\katas.cs",
   "PreviewInSolutionExplorer": false
 }
