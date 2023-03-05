@@ -42,6 +42,7 @@ node_modules/
 jspm_packages/
 obj/
 bin/
+.vs/
 
 # TypeScript v1 declaration files
 typings/
