@@ -1,8 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using kataPrac;
 using System.Text;
 using System.Text.RegularExpressions;
-using kataPrac;
 
 namespace KataPrac;
 
@@ -35,11 +33,13 @@ public class Program
         //Console.WriteLine(binaryArrayToNumber(new int[] { 1, 0, 1, 0 }));
         //Console.WriteLine(GetNumber(st));
         //Console.WriteLine(largestPair(49999));
-        Console.WriteLine(katas.seriesSum(5));
-        Console.WriteLine(katas.seriesSum(0));
-        Console.WriteLine(katas.PrinterError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
+        //Console.WriteLine(katas.seriesSum(5));
+        //Console.WriteLine(katas.seriesSum(0));
+        //Console.WriteLine(katas.PrinterError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
 
-
+        //Console.WriteLine(CodeSignal.centuryFromYear(1975));
+        //Console.WriteLine(CodeSignal.ArrayLargest(new int[] { -23, 4, -3, 8, -12 }));
+        Console.WriteLine(CodeSignal.polygons(5));
 
     }
     public static string Solution(string str)
